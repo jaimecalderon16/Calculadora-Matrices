@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Operaciones con matrices</title>
+  <link rel="shortcut icon" href="./jcLogo.png" type="image/png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Operaciones con matrices</h1>
+  <form>
+    <label for="filas">Filas:</label>
+    <input type="number" id="filas" name="filas">
+    <label for="columnas">Columnas:</label>
+    <input type="number" id="columnas" name="columnas">
+    <button class="button one" type="button" onclick="cargarMatriz()">Cargar</button>
+  </form>
+
+  <table id="tabla1"></table>
+  <table id="tabla2"></table>
+
+  <div class="containerBottoms">
+    <button class="button two" type="button" onclick="realizarOperacion('suma')">Sumar Matrices</button>
+    <button class="button three" type="button" onclick="realizarOperacion('resta')">Restar Matrices</button>
+    <button class="button four" type="button" onclick="realizarOperacion('multiplicacion')">Multiplicar Matrices</button>
+  </div>
+
+  <table id="resultado"></table>
+  <a href="jaimecal.site">by: jaime Calderon</a> 
+
+  <script src="./main.js"></script>
+</body>
+</html>

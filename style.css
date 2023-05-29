@@ -1,0 +1,85 @@
+
+body{
+    padding: 10%;
+    background-color: antiquewhite;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+    /* Estilos para el formulario */
+form {
+    padding: 5%;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+.containerBottoms{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+  margin: 0 auto;
+}
+
+form input[type="number"] {
+  width: 60px;
+}
+
+.button{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+.button.one{
+    margin: 20px auto ;
+}
+
+.button.thow{
+    background-color: #008CBA;
+}
+
+/* Estilos para la tabla */
+table {
+    padding: 10px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+table td {
+  max-width: 120px !important;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+table td input{
+    max-width: 110px !important;
+}
+/* Estilos para el botón de mostrar matriz */
+button[type="button"] {
+  display: block;
+  margin: 0 auto;
+}
+
+a{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-decoration: none;
+  font-weight: 600;
+  color: cadetblue;
+}
+
